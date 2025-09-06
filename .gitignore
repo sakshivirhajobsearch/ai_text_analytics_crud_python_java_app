@@ -1,0 +1,51 @@
+# === GLOBAL IGNORE ===
+*.log
+*.db
+.DS_Store
+.env
+*.iml
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.ipynb
+*.json
+*.sqlite3
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Python IDE
+.vscode/
+.idea/
+
+# === JAVA (Maven / Spring Boot) ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+*.iws
+*.ipr
+*.iml
+out/
+
+# === OS Specific ===
+Thumbs.db
+ehthumbs.db
+desktop.ini
