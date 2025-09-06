@@ -1,4 +1,4 @@
-package ai.text.analytics.service;
+package com.ai.text.analytics.service;
 
 import java.util.List;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import ai.text.analytics.model.TextData;
-import ai.text.analytics.repository.TextRepository;
+import com.ai.text.analytics.model.TextData;
+import com.ai.text.analytics.repository.TextRepository;
 
 @Service
 public class TextService {

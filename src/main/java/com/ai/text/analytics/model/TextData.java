@@ -1,4 +1,4 @@
-package ai.text.analytics.model;
+package com.ai.text.analytics.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

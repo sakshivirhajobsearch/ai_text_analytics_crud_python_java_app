@@ -1,4 +1,4 @@
-package ai.text.analytics;
+package com.ai.text.analytics;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

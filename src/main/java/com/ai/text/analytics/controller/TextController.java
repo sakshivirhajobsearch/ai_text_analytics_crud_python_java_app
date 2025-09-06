@@ -1,4 +1,4 @@
-package ai.text.analytics.controller;
+package com.ai.text.analytics.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ai.text.analytics.model.TextData;
-import ai.text.analytics.service.TextService;
+import com.ai.text.analytics.model.TextData;
+import com.ai.text.analytics.service.TextService;
 
 @RestController
 @RequestMapping("/api/text")
